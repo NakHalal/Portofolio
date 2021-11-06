@@ -1,0 +1,17 @@
+Title	:Dummy Topic 1
+Description	:Ini deskripsi topic 1
+List activity:
+ID   |Title               |Type      |Description
+---------------------------------------------
+0    |Dummy Assignment 1  |assignment|buatlah program Game
+1    |Dummy material      |material  |slide minggu ini
+
+
+Title	:Dummy Topic 2
+Description	:Ini deskripsi topic 2
+List activity:
+ID   |Title               |Type      |Description
+---------------------------------------------
+2    |Dummy Assignment 2  |assignment|buatlah program LMS
+
+

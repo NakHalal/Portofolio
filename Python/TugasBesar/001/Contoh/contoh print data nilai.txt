@@ -1,0 +1,8 @@
+ID	: 0
+Title	:Dummy Assignment 1
+Nilai semua mahasiswa: 
+NIM       |Nilai
+---------------
+113       |100
+
+

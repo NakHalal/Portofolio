@@ -1,0 +1,25 @@
+statement=satu unit kode lengkap (secara syntax) yang melakukan suatu aksi
+expression=potongan kode mana saja yang jika dievaluasi menghasilkan sebuah nilai
+
+Input=pengguna mengetikan/menyimpan nilai yang diberikan oleh pengguna
+
+//karakter yang tidak bisa digunakan dalam membentuk nama sebuah variable
+phi
+
+//dari pilihan dibawah ini,
+num_of_bark
+
+//var=20/4
+5.0
+
+//10,20,30,40,50 manakah kode yang benar
+
+mana sajakah kode yang benar untuk mengeluarkan hello world
+
+print('hello', 'world!', sep=' ')
+print('hello world!')
+
+//penamaan variable
+1356
+
+//2**2**2*2

@@ -1,0 +1,160 @@
+1	Buatlah program untuk memeriksa apakah inputan user 
+merupakan nama hari yang valid atau tidak.
+Nama hari yang valid adalah: 
+- Senin
+- Selasa
+- Rabu
+- Kamis
+- Jum'at
+- Sabtu
+- Minggu
+
+Jika valid, maka print ke layar tulisan "Valid", jika tidak print "Tidak Valid"
+
+CONTOH:
+Masukkan har: Rabu
+Valid
+
+2	Buatlah program untuk mengubah nama hari menjadi angka:
+- Senin --> 1
+- Selasa --> 2
+- Rabu --> 3
+- Kamis --> 4
+- Jum'at --> 5
+- Sabtu --> 6
+- Minggu --> 7
+
+Selain nama hari di atas, outputkan "Tidak Valid"
+
+CONTOH:
+Masukkan hari: Selasa
+2
+
+3	Buatlah program untuk menentukan seragam yang harus digunakan Budi setiap harinya.
+- minta inputan hari dari user
+- minta inputan tanggal dari user
+- minta inputan apakah tanggal tersebut tanggal merah atau tidak (Ya/Tidak)
+
+Berikut adalah ketentuan seragamnya dengan prioritas aturan tertinggi ke terendah.
+- hari libur pasti seragamnya adalah "Bebas"
+- hari jum'at seragamnya adalah "Olah Raga", tetapi kalau hari jum'at bertepatan 
+dengan tanggal 1 (awal bulan) maka seragamnya adalah "Batik"
+- hari lainnya berseragam "Putih"
+
+CONTOH:
+Masukkan hari: Jum'at
+Masukkan tanggal: 1
+Tanggal Merah (Ya/Tidak): Tidak
+Batik
+
+4	Buatlah program untuk menghitung total diskon yang diterima oleh pembeli.
+- meminta inputan total belanja dari user
+- meminta inputan apakah member atau bukan
+
+Berikut aturan diskon yang bisa diakumulasikan.
+- diskon member adalah 5%
+- pembelian 500.000 - 1 juta dapat diskon 2%, 
+sedangkan pembelian di atas 1 juta dapat diskon 3%
+
+Outputkan total diskon dalam persen.
+
+CONTOH:
+Masukkan total belanja: 600000
+Apakah member (Ya/Tidak): Ya 
+Anda mendapat diskon 7%
+
+5	Buatlah program untuk menghitung gaji pegawai.
+Minta input status pegawai.
+Jika pegawai berstatus "Tetap", maka minta input jumlah anak.
+Gaji pegawai "Tetap" adalah:
+- gaji pokok 6 juta
+- tunjangan anak yaitu 220000/anak jika jumlah anak <= 3. Jika > 3, maka 200000/anak
+
+Gaji pegawai "Kontrak" yaitu 4000000
+
+CONTOH:
+Masukkan status pegawai (Tetap/Kontrak): Tetap
+Masukkan jumlah anak: 5
+Gaji anda adalah 7000000
+
+6	Buatlah program yang meminta user menginputkan sebuah nilai integer positif n.
+Lalu outputkan semua angka ganjil dari 1 sampai n.
+
+CONTOH:
+Masukkan batas akhir: 12
+1
+3
+5
+7
+9
+11
+
+7	Minta user menginputkan sebuah bilangan integer positif n.
+Lalu outputkan pola '*' n x n.
+
+CONTOH:
+Masukkan n: 5
+*****
+*****
+*****
+*****
+*****
+
+8	Minta user menginputkan sebuah bilangan integer positif n.
+Lalu outputkan pola n x n, dikelilingi '*' dan di dalamnya '#'.
+
+CONTOH:
+Masukkan n: 5
+*****
+*###*
+*###*
+*###*
+*****
+
+9	Buatlah program untuk menjumlah semua angka yang diinputkan satu per satu oleh user.
+
+Minta user untuk menginput banyaknya nilai yang ingin dijumlahkan.
+Minta user menginputkan satu per satu nilainya
+Print hasil penjumlahan
+
+CONTOH:
+Banyaknya nilai: 5
+Masukkan nilai ke-1: 10
+Masukkan nilai ke-2: -20
+Masukkan nilai ke-3: 20
+Masukkan nilai ke-4: 30
+Masukkan nilai ke-5: 15
+55
+
+10	Buat program meminta inputan integer positif n dari user. 
+Selama yang diinputkan <=0, program terus minta user menginputkan lagi.
+
+Jika inputan sudah valid, outputkan bintang sebanyak n kali.
+
+CONTOH:
+Masukkan integer > 0: 0
+Input Tidak Valid!
+Masukkan integer > 0: -1
+Input Tidak Valid!
+Masukkan integer > 0: 5
+*****
+
+11	Buat program meminta inputan integer positif n dari user. 
+Selama yang diinputkan <=0, program terus minta user menginputkan lagi 
+sampai MAKSIMAL 3 kali.
+
+Jika n valid, outputkan bintang sebanyak n kali. 
+Jika n masih tidak valid, tidak menampilkan apapun.
+
+CONTOH:
+Masukkan integer > 0: -1
+Input Tidak Valid!
+Anda punya maksimal 3 percobaan lagi:
+Masukkan integer > 0: -2
+Input Tidak Valid!
+Anda punya maksimal 2 percobaan lagi:
+Masukkan integer > 0: -5
+Input Tidak Valid!
+Anda punya maksimal 1 percobaan lagi:
+Masukkan integer > 0: 0
+

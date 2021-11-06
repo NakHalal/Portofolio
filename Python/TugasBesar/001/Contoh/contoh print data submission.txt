@@ -1,0 +1,18 @@
+ID	: 0
+Title	: Dummy Assignment 1
+Description	: buatlah program Game
+NIM       |Jawaban
+------------------------------
+113       |Ini jawaban mahasiswa 113
+114       |Ini jawaban mahasiswa 114
+
+
+ID	: 2
+Title	: Dummy Assignment 2
+Description	: buatlah program LMS
+NIM       |Jawaban
+------------------------------
+113       |Ini jawaban mahasiswa 113
+114       |Ini jawaban mahasiswa 114
+
+
